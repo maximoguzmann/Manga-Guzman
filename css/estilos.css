@@ -1,0 +1,177 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'IBM Plex Sans Arabic', sans-serif; }
+
+body {
+  background-image: url(https://www.ivrea.com.ar/img/bg.jpg); }
+
+.title, .sucursal__titulo, .info__h1, .merch__h1 {
+  display: block;
+  padding-left: 8%;
+  font-weight: 500; }
+
+.cabeza {
+  width: 100%;
+  height: auto;
+  min-height: 120px;
+  background-color: #FFAD2C;
+  border-bottom: solid #B6500E 5px; }
+  .cabeza__logo {
+    width: 70px;
+    height: 70px;
+    margin-top: 10px; }
+  .cabeza__lista {
+    font-weight: 400; }
+
+.pie {
+  width: 100%;
+  height: 100px;
+  background-color: #FFAD2C;
+  border-top: solid #B6500E 5px;
+  margin-top: 1rem;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+  .pie__lista {
+    list-style: none;
+    padding-top: 15px;
+    font-size: 20px; }
+  .pie__redes {
+    height: 40px;
+    width: 40px;
+    margin-top: 28px;
+    margin-right: 20px; }
+
+.banner {
+  width: auto;
+  height: auto; }
+
+.editorial {
+  height: 100%;
+  width: 85%;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+  .editorial__div {
+    width: auto;
+    height: 35rem; }
+    .editorial__div .ivrea {
+      color: #F21735;
+      text-shadow: 0 0 3px #000; }
+    .editorial__div .panini {
+      color: #FFF02A;
+      text-shadow: 0 0 3px #000; }
+    .editorial__div .ovni {
+      color: #000;
+      text-shadow: 0 0 3px #000; }
+  .editorial__img {
+    width: 50%;
+    height: 50%; }
+
+.mangakas {
+  height: auto;
+  width: 100%; }
+  .mangakas__img {
+    width: 100%;
+    height: 200px; }
+
+.recomienda {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column; }
+  .recomienda__titulo {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 30px; }
+  .recomienda__div {
+    height: 100px;
+    width: 100%; }
+  .recomienda__img {
+    height: auto;
+    width: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease; }
+    .recomienda__img:hover {
+      transform: scale(1.05); }
+
+.sucursal {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column; }
+  .sucursal__h1 {
+    display: block;
+    font-size: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+  .sucursal__mapa {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+
+.local {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around; }
+  .local__div--span {
+    font-weight: bold;
+    font-size: 18px; }
+
+.info__h1 {
+  font-size: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.info__iframe {
+  height: 100vh;
+  width: 100%;
+  padding: 0 20px; }
+
+.info__text {
+  height: auto;
+  width: 100%;
+  text-align: center;
+  padding: 0 20px; }
+
+.info__banner--img {
+  width: 100%;
+  height: 100%; }
+
+.info__img {
+  height: 650px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around; }
+  .info__img--img {
+    height: 650px; }
+
+.merch__h1 {
+  font-size: 50px;
+  padding-top: 5px;
+  padding-bottom: 20px; }
+
+.manga__art {
+  overflow: hidden;
+  cursor: pointer; }
+  .manga__art--img {
+    width: 100%;
+    height: 600px;
+    transition: transform 0.3s ease; }
+    .manga__art--img:hover {
+      transform: scale(1.15); }
+  .manga__art--button {
+    width: 150px;
+    height: 37px; }
+
+.contacto__titulo {
+  width: 100%;
+  padding-top: 20px;
+  padding-left: 8%; }
+  .contacto__titulo--h1 {
+    font-size: 50px; }
